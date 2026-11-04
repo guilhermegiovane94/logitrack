@@ -1,0 +1,22 @@
+{
+  "name": "logitrack-cypress",
+  "version": "1.0.0",
+  "description": "Automação de testes API + Web (Cypress) para o desafio LogiTrack",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "cy:run:web": "cypress run --spec \"cypress/e2e/web/**/*.cy.js\"",
+    "cy:run:headed": "cypress run --headed --browser chrome",
+    "report": "cypress run --reporter mochawesome --reporter-options reportDir=cypress/reports,overwrite=false,html=true,json=true"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

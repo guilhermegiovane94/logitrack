@@ -1,0 +1,47 @@
+{
+  "valid": {
+    "reference": "LT-2026-9999",
+    "customer": "Cliente Automacao QA",
+    "origin": "Santos - SP",
+    "destination": "Shanghai - CN",
+    "incoterm": "FOB",
+    "weightKg": 1250.5,
+    "valueUsd": 45000.75
+  },
+  "invalidReference": {
+    "reference": "INVALID-REF",
+    "customer": "Cliente Teste",
+    "origin": "Santos",
+    "destination": "Shanghai",
+    "incoterm": "CIF",
+    "weightKg": 100,
+    "valueUsd": 1000
+  },
+  "sameOriginDestination": {
+    "reference": "LT-2026-8888",
+    "customer": "Cliente Teste",
+    "origin": "Santos",
+    "destination": "Santos",
+    "incoterm": "FOB",
+    "weightKg": 100,
+    "valueUsd": 1000
+  },
+  "weightZero": {
+    "reference": "LT-2026-7777",
+    "customer": "Cliente Teste",
+    "origin": "Santos",
+    "destination": "Shanghai",
+    "incoterm": "FOB",
+    "weightKg": 0,
+    "valueUsd": 1000
+  },
+  "valueNegative": {
+    "reference": "LT-2026-6666",
+    "customer": "Cliente Teste",
+    "origin": "Santos",
+    "destination": "Shanghai",
+    "incoterm": "FOB",
+    "weightKg": 100,
+    "valueUsd": -10
+  }
+}

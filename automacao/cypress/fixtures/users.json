@@ -1,0 +1,16 @@
+{
+  "analista": {
+    "email": "analista@logitrack.test",
+    "password": "Senha@123",
+    "role": "analista"
+  },
+  "admin": {
+    "email": "admin@logitrack.test",
+    "password": "Admin@123",
+    "role": "admin"
+  },
+  "invalid": {
+    "email": "naoexiste@logitrack.test",
+    "password": "senhaerrada"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "logitrack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/server.js",
+  "start:safe": "node scripts/start-safe.js",
+    "reset-db": "node -e \"require('fs').rmSync('data',{recursive:true,force:true});console.log('Banco removido.')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
