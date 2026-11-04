@@ -305,7 +305,3 @@ npm run report
 ```
 
 ---
-
-**Boa sorte na apresentação!**  
-Qualquer dúvida sobre o enunciado ou sobre a execução, pergunte.
-
